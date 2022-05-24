@@ -1,0 +1,288 @@
+body{
+overflow: hidden;
+
+}
+
+.wszystko{
+position: absolute;
+top: 150px;
+right: 500px;
+animation-name: auto;
+animation-duration: 10s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes auto{
+    0%{top:150px; left: 100%;}
+    25%{top:150px; left: 65%;}
+    50%{top:150px; left:6535;}
+    75%{top:150px; left:10%;}
+    100%{top:150px; left: -450px;}
+
+}
+
+
+.caloscaut{
+position: relative;
+width: 440px;
+}
+
+.gora{
+background-color: red;
+width: 420px;
+height: 100px;
+border-radius: 30px 30px 0px 20px ;
+box-sizing: border-box;
+position: absolute;
+right: 0;
+}
+
+.goral{
+background-color: red;
+height: 100px;
+width: 70px;
+box-sizing: border-box;
+position: absolute;
+left: 0px;
+top: 0;
+transform: skewX(-10deg);
+border-radius: 20px 0px 0px 20px;
+
+}
+
+.srodek{
+background-color: red;
+width: 400px;
+height: 70px;
+position: absolute;
+right: 0px;
+top: 100px;
+box-sizing: border-box;
+}
+
+.srodek2{
+background-color: red;
+width: 440px;
+height: 90px;
+position: absolute;
+right: 0px;
+top: 170px;
+border-radius: 40px 0px 0px 0px;
+
+}
+
+.dol{
+background-color: gray;
+height: 25px;
+width: 450px;
+position: absolute;
+border-radius: 20px 20px;
+top: 240px;
+left: -5px;
+
+}
+
+.linia1{
+background-color: rgb(160, 31, 31);
+width: 415px;
+height: 4px;
+position: absolute;
+top: 80px;
+right: 10px;
+}
+
+.linia2{
+background-color: rgb(160, 31, 31);
+width: 240px;
+height: 4px;
+position: absolute;
+top: 170px;
+right: 80px;
+
+}
+
+.drzwi{
+background-color: rgb(160, 31, 31);
+width: 60px;
+height: 140px;
+position: absolute;
+right: 10px;
+top: 100px;
+border-radius: 10px 10px 0px 0px;
+}
+
+.oknoprzod{
+height: 70px;
+background-color: rgb(160, 31, 31);
+position: absolute;
+width: 70px;
+right: 330px;
+top: 100px;
+
+}
+
+.oknoc{
+background: linear-gradient(45deg, rgb(93, 204, 255), rgb(202, 232, 235));
+border-radius: 5px 5px;
+}
+.okno{
+width: 50px;
+height: 50px;
+position: absolute;
+top: 110px;
+right: 340px;
+}
+
+.okno2{
+width: 50px;
+height: 50px;
+position: absolute;
+top: 110px;
+left: 125px;
+box-sizing: border-box;
+
+}
+
+.okno2::after{
+content: '';
+width: 50px;
+height: 50px;
+background: linear-gradient(45deg, rgb(93, 204, 255), rgb(202, 232, 235));
+position: absolute;
+border-radius: 5px 5px;
+left: 60px;
+}
+
+.okno2::before{
+content: '';
+width: 50px;
+height: 50px;
+background: linear-gradient(45deg, rgb(93, 204, 255), rgb(202, 232, 235));
+position: absolute;
+border-radius: 5px 5px;
+left: 120px;
+}
+
+.okno3{
+position: absolute;
+width: 50px;
+height: 50px;
+top: 110px;
+left: 305px;
+}
+
+.okno3::after{
+content: '';
+position: absolute;
+width: 50px;
+height: 50px;
+top: -95px;
+left: 0px;
+background: linear-gradient(45deg, rgb(93, 204, 255), rgb(202, 232, 235));
+border-radius: 5px 5px;
+}
+
+.okno3::before{
+content: '';
+position: absolute;
+width: 50px;
+height: 50px;
+top: -95px;
+left: -60px;
+background: linear-gradient(45deg, rgb(93, 204, 255), rgb(202, 232, 235));
+border-radius: 5px 5px;
+}
+
+.okno4{
+position: absolute;
+width: 50px;
+height: 50px;
+top: 15px;
+left: 185px;
+}
+
+.okno4::before{
+content: '';
+position: absolute;
+width: 50px;
+height: 50px;
+top: 0px;
+left: -60px;
+background: linear-gradient(45deg, rgb(93, 204, 255), rgb(202, 232, 235));
+border-radius: 5px 5px;
+}
+
+.okno5{
+width: 65px;
+height: 50px;
+position: absolute;
+right: 10px;
+top: 15px;
+border-radius: 5px 25px 5px 5px;
+}
+
+.okno6{
+position: absolute;
+width: 50px;
+height: 50px;
+top: 15px;
+left: 60px;
+background: linear-gradient( rgb(93, 204, 255), rgb(202, 232, 235));
+}
+
+.okno6::after{
+content: '';
+position: absolute;
+width: 50px;
+height: 50px;
+top: 0px;
+left: -40px;
+background: linear-gradient( rgb(93, 204, 255), rgb(202, 232, 235)); 
+transform: skewX(-10deg);
+border-radius: 15px 0px 0px 5px;
+}
+
+.kolo{
+background-color: black;
+width: 100px;
+height: 100px;
+position: absolute;
+border-radius: 50%;
+
+}
+
+.kolo1{
+top: 190px;
+left: 20px;
+
+}
+
+.kolo::before{
+content: '';
+background-color: gainsboro;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+top: 25px;
+position: absolute;
+left: 25px;
+}
+
+.kolo::after{
+content: '';
+background-color: gray;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+top: 40px;
+position: absolute;
+left: 40px;
+}
+
+.kolo2{
+top: 190px;
+right: 80px;
+}
+
